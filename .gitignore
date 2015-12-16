@@ -1,2 +1,5 @@
 #Каталок phpStorm'а
 .idea
+
+#Константы
+/constants/config.js
