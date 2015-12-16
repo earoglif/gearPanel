@@ -1,4 +1,4 @@
-App = App || window['App'] || {};
+App = {};
 
 App.constants = {
     // Путь к проекту (/extjs5/modules)

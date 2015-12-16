@@ -10,7 +10,7 @@ Ext.onReady(function(){
         ],
         launch : function() {
 
-            console.log('APP:', App);
+            console.log('APP:', App, App.constants.PROJECT_PATH);
 
             Ext.create('Ext.Panel', {
                 renderTo: Ext.getBody(),
