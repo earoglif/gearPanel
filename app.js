@@ -3,7 +3,7 @@ Ext.onReady(function(){
     Ext.application({
         name   : 'App',
         paths: {
-            "App.modules": App.constans.PROJECT_PATH
+            "App.modules": App.constants.PROJECT_PATH
         },
         requires: [
             'App.modules.tbltst.Init'
