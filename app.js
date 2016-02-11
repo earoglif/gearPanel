@@ -9,20 +9,9 @@ Ext.onReady(function(){
             'App.modules.tbltst.Init'
         ],
         launch : function() {
-
-            console.log('APP:', App, App.constants.PROJECT_PATH);
-
-            Ext.create('Ext.Panel', {
-                renderTo: Ext.getBody(),
-                width: 200,
-                title: 'Hello World',
-                items: [
-                    {
-                        xtype: 'tstgrig'
-                    }
-                ]
+            Ext.require('App.modules.desktop.Main', function(){
+                Ext.create('App.modules.desktop.Main');
             });
-
         }
     });
 });

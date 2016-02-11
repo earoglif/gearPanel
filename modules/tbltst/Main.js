@@ -1,4 +1,4 @@
-Ext.define('App.modules.tbltst.Init', {
+Ext.define('App.modules.tbltst.Main', {
     extend: 'Ext.grid.Panel',
     alias: 'widget.tstgrig',
     title: 'Тестовая таблица',
