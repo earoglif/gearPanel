@@ -2,5 +2,5 @@ App = {};
 
 App.constants = {
     // Путь к проекту
-    PROJECT_PATH: '/modules'
+    PROJECT_PATH: '/gearPanel/modules'
 }
