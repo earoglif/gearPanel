@@ -3,6 +3,7 @@ Ext.define('App.modules.desktop.Main', {
     requires: [
         'App.modules.desktop.view.MainViewModel',
         'App.modules.desktop.view.TreeMainMenu',
+        'App.modules.desktop.view.MainTabPanel',
         'App.modules.desktop.view.MainViewController'
     ],
     alias: 'widget.desktop-panel',
@@ -17,10 +18,13 @@ Ext.define('App.modules.desktop.Main', {
             width: 220,
             resizable: true,
             border: true,
-            collapsible: true
+            collapsible: true,
+            style: {
+                borderRight: '2px solid #f5f5f5'
+            }
         },
         {
-            xtype: 'panel',
+            xtype: 'main-tabpanel',
             region: 'center'
         }
     ]

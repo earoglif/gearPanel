@@ -19,11 +19,16 @@ Ext.define('App.modules.desktop.view.MainViewModel', {
                         children: [
                             {
                                 text: 'Объединенный ячейки',
-                                link: 'App.modules.tbltst.Main',
                                 leaf: true
                             },
                             {
                                 text: 'Экспандер строк',
+                                leaf: true
+                            },
+                            {
+                                text: 'Тестовый модуль',
+                                moduleId: 1,
+                                module: 'App.modules.tbltst.Main',
                                 leaf: true
                             }
                         ]

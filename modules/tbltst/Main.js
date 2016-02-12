@@ -37,4 +37,4 @@ Ext.define('App.modules.tbltst.Main', {
             dataIndex: 'name'
         }
     ]
-})
+});
