@@ -4,8 +4,7 @@ Ext.define('App.modules.desktop.view.MainViewModel', {
 
     stores: {
         mainMenu: {
-            type: 'tr' +
-                'ee',
+            type: 'tree',
             root: {
                 expanded: true,
                 children: [

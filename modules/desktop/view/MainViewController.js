@@ -22,8 +22,8 @@ Ext.define('App.modules.desktop.view.MainViewController', {
             desktop = me.getView(),
             tabPanel = desktop.down('main-tabpanel');
 
-        console.log('addModule:', desktop, arguments);
-        //alert(1);
+        console.log('addModule:', desktop, tabPanel);
+        alert(1);
 
         if(!id || !module){
             Ext.toast({
