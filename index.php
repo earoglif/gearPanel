@@ -3,15 +3,14 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Тестирование ExtJS5</title>
-    <link rel="stylesheet" type="text/css" href="css/ext-theme-crisp/build/resources/ext-theme-crisp-all.css">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="css/ext-theme-crisp/build/resources/ext-theme-crisp-all.css">
 </head>
 <body>
 <span class="loader"><span class="loader-inner"></span></span>
 <script>
     window.onload = function(){
-        document.getElementsByClassName("loader").remove();
-        document.getElementsByClassName("loader-inner").remove();
+        document.getElementsByClassName("loader")[0].remove();
     }
 </script>
 
