@@ -22,6 +22,8 @@ Ext.define('App.modules.desktop.view.MainViewModel', {
                             },
                             {
                                 text: 'Экспандер строк',
+                                moduleId: 2,
+                                module: 'App.modules.tbltst.Main',
                                 leaf: true
                             },
                             {
