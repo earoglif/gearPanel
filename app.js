@@ -7,6 +7,7 @@ Ext.onReady(function(){
             "Ext.ux": App.constants.UX_PATH
         },
         launch : function() {
+            Ext.setGlyphFontFamily('FontAwesome');
             Ext.require('App.modules.desktop.Main', function(){
                 Ext.create('App.modules.desktop.Main');
             });

@@ -1,6 +1,12 @@
 Ext.define('App.modules.tbltst.Main', {
     extend: 'Ext.grid.Panel',
+    requires: [
+        'App.modules.tbltst.view.Toolbar'
+    ],
     alias: 'widget.tstgrig',
+    tbar: {
+        xtype: 'tbltst-toolbar'
+    },
     title: 'Тестовая таблица',
     store: {
         fields: ['id', 'name'],
