@@ -4,7 +4,8 @@ Ext.onReady(function(){
         name   : 'App',
         paths: {
             "App.modules": App.constants.PROJECT_PATH,
-            "Ext.ux": App.constants.UX_PATH
+            "Ext.ux": App.constants.UX_PATH,
+            "App.main": App.constants.FRONTEND_PATH
         },
         launch : function() {
             Ext.setGlyphFontFamily('FontAwesome');
