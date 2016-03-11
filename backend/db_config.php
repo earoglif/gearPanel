@@ -1,7 +1,7 @@
 <?php
 $conn = new Mongo('localhost');
-$db = $conn->citysDB;
-$var = 'items';
+$db = $conn->gearPanel;
+$var = 'citys';
 $collection = $db->$var;
 
 $cursor = $collection->find();
