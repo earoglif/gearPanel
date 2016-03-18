@@ -35,6 +35,14 @@ Ext.define('App.modules.desktop.view.MainViewModel', {
                         ]
                     },
                     {
+                        text: 'Пользователи',
+                        moduleId: 3,
+                        module: 'App.modules.users.Main',
+                        leaf: true,
+                        //glyph: 0xf0c0,
+                        iconCls : 'fa fa-power-off fa-icon'
+                    },
+                    {
                         text: 'Настройки',
                         leaf: true
                     }

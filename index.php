@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
     <link rel="stylesheet" type="text/css" href="css/ext-theme-crisp/build/resources/ext-theme-crisp-all.css">
     <link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <span class="loader"><span class="loader-inner"></span></span>

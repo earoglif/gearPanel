@@ -9,7 +9,8 @@ Ext.define('App.modules.tbltst.view.Toolbar', {
         {
             xtype: 'button',
             text: 'Кнопка',
-            glyph: 0xf206,
+            //glyph: 0xf206,
+            iconCls: 'fa fa-gear',
             scale: 'large',
             icon: null
         },

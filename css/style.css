@@ -1,0 +1,13 @@
+.icon-content {
+    content: "";
+    background-image: none !important;
+    margin-top: auto !important;
+
+}
+
+.fa-icon {
+    font-size: 16px;
+    height: 16px;
+    text-align: center;
+    width: 16px;
+}

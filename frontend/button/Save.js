@@ -4,6 +4,6 @@ Ext.define('App.main.button.Save', {
 
     text: 'Сохранить',
     glyph: 0xf206,
-    scale: 'large',
+    scale: 'medium',
     icon: null
 });

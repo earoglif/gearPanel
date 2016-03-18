@@ -12,7 +12,7 @@ Ext.define('App.modules.desktop.view.TreeMainMenu', {
     initComponent: function(){
         var me = this;
 
-        console.log('MAIN:', me);
+        //console.log('MAIN:', me);
         //alert(1);
 
         me.callParent(arguments);
